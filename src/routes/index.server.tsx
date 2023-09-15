@@ -1,5 +1,9 @@
 import React from 'react';
 
 export default function Home() {
-  return <div>Hello World</div>;
+  return (
+      <form action="/api">
+        <button>Submit</button>
+      </form>
+  );
 }
