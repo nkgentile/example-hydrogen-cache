@@ -5,6 +5,7 @@ import { getLoggerWithContext } from "@shopify/hydrogen/utilities/log/log";
 import { collectQueryCacheControlHeaders } from "@shopify/hydrogen/utilities/log/log-cache-header";
 
 /**
+ * Cache third-party requests
  * @see https://github.com/Shopify/hydrogen-v1/blob/main/packages/hydrogen/src/foundation/useQuery/hooks.ts#L99
  */
 export function cachedQueryFnBuilder<T>(
